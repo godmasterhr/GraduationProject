@@ -203,7 +203,7 @@
 			<version>${commons-fileupload.version}</version>
 		</dependency>
 
-		<!-- jedis -->
+		<!-- jedis java操作Redis-->
 		<dependency>
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
