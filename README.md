@@ -1,3 +1,3 @@
 # GraduationProject
-It is my GraduationProject
-It is a gift for myself.
+It is my GraduationProject.
+   It is a gift for myself.
