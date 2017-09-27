@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.e_mall.www.mapper.ItemMapper">
+	<!--namespace 应该与mapper接口保持一致  -->
+	
+	<select id="findShoesList" resultType="Item">
+		SELECT * FROM  item where itemType =8
+	</select>
+	<select id="findPhoneList" resultType="Item">
+		SELECT * FROM  item where itemType =1
+	</select>
+	<select id="findCpuList" resultType="Item">
+		SELECT * FROM  item where itemType =2
+	</select>
+	<select id="findClothList" resultType="Item">
+		SELECT * FROM  item where itemType =3
+	</select>
+	<select id="findHomeeList" resultType="Item">
+		SELECT * FROM  item where itemType =4
+	</select>
+	<select id="findFoodList" resultType="Item">
+		SELECT * FROM  item where itemType =5
+	</select>
+	<select id="findBookList" resultType="Item">
+		SELECT * FROM  item where itemType =6
+	</select>
+	<select id="findMedicalList" resultType="Item">
+		SELECT * FROM  item where itemType =7
+	</select>
+
+	
+	
+</mapper>

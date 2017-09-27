@@ -1,0 +1,5 @@
+127.0.0.1 - - [10/Feb/2017:17:44:35 +0800] "GET / HTTP/1.1" 200 102 http-bio-80-exec-1 114
+127.0.0.1 - - [10/Feb/2017:17:44:35 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-2 26
+127.0.0.1 - - [10/Feb/2017:17:44:35 +0800] "GET /index HTTP/1.1" 200 3466 http-bio-80-exec-3 336
+127.0.0.1 - - [10/Feb/2017:17:55:30 +0800] "GET /toItemList?page=1&type=1 HTTP/1.1" 500 5875 http-bio-80-exec-1 924
+127.0.0.1 - - [10/Feb/2017:18:01:00 +0800] "GET /toItemList?page=1&type=1 HTTP/1.1" 500 18653 http-bio-80-exec-1 1065

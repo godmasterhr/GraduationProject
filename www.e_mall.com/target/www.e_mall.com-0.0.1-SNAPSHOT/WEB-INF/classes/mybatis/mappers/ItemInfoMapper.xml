@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.e_mall.www.mapper.ItemInfoMapper">
+	<!--namespace 应该与mapper接口保持一致  -->
+	<select id="findItemById"  resultType="Item">
+		SELECT * FROM 
+			(SELECT * FROM  item GROUP BY id)t 
+			WHERE t.id=#{id}
+	</select>
+
+	
+	
+</mapper>
