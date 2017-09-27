@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.e_mall.manage.mapper.UserMapper">
+	<!--namespace 应该与mapper接口保持一致  -->
+	<select id="findUserList"  resultType="User">
+		select * from user limit #{start},#{row}
+	</select>
+	<delete id="delUserById">
+		delete from user where userid = #{userId}
+	</delete>
+</mapper>

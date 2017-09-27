@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.e_mall.manage.mapper.OrderMapper">
+	<!--namespace 应该与mapper接口保持一致  -->
+	<select id="findOrderList"  resultType="Orders">
+		select * from orders limit #{start},#{row}
+	</select>
+	
+	
+	<select id="findOrderById"  resultType="Orders">
+		select * from orders where orderId = #{orderId}
+	</select>
+	
+	<update id="updateOrder">
+		update orders set name = #{name},payMode = #{payMode} where orderId = #{orderId}
+	</update>
+	
+	<delete id="toDeleteOrder">
+		delete from orders where orderId= #{orderId}
+	</delete>
+</mapper>

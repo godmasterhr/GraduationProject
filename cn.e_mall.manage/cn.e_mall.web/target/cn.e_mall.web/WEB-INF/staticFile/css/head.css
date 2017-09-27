@@ -1,0 +1,60 @@
+@charset "utf-8";
+{
+	border: 1px solid #999;
+}
+body{
+	margin:0px;
+	font-family:"微软雅黑";
+}
+
+
+
+/*第一行盒子，设置宽度自适应*/
+#head #line1{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #EDEDED; 
+	font-size:14px;
+	color:#666666;
+}
+/*设置第一行盒子中的字*/
+#head #line1 #content{
+	width:1200px;
+	margin:0px auto;
+	line-height:35px;
+}
+
+
+
+
+
+
+/*第二行*/
+#head #line2{
+	width:100%;
+	height:38px;
+	background-color:green;
+}
+#head #line2 #content{
+	width:1200px;
+	margin:0px auto;
+}
+#head #line2 #content ul{
+	padding:0px;
+	margin:0px;
+}
+#head #line2 #content li{
+	list-style-type:none;
+	width:133px;
+	float:left;
+}
+#head #line2 #content li a{
+	display: block;
+	line-height:38px;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+}
+#head #line2 #content li a:hover{
+	background-color: pink;
+}

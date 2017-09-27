@@ -1,0 +1,8 @@
+127.0.0.1 - - [21/Jul/2017:17:18:17 +0800] "GET /index HTTP/1.1" 200 3184 http-bio-8081-exec-1 442
+127.0.0.1 - - [21/Jul/2017:17:18:17 +0800] "GET /staticFile/js/jquery-1.4.2.js HTTP/1.1" 200 163855 http-bio-8081-exec-4 19
+127.0.0.1 - - [21/Jul/2017:17:18:17 +0800] "GET /staticFile/css/Style.css HTTP/1.1" 200 1763 http-bio-8081-exec-3 136
+127.0.0.1 - - [21/Jul/2017:17:18:17 +0800] "GET /staticFile/img/logo.jpg HTTP/1.1" 200 44696 http-bio-8081-exec-2 168
+127.0.0.1 - - [21/Jul/2017:17:18:17 +0800] "GET /staticFile/img/box.jpg HTTP/1.1" 200 56349 http-bio-8081-exec-6 252
+127.0.0.1 - - [21/Jul/2017:17:18:17 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8081-exec-8 7
+127.0.0.1 - - [21/Jul/2017:17:18:20 +0800] "GET /toItemManage HTTP/1.1" 200 5123 http-bio-8081-exec-9 89
+127.0.0.1 - - [21/Jul/2017:17:18:30 +0800] "GET /toaddItem HTTP/1.1" 200 4884 http-bio-8081-exec-10 61
